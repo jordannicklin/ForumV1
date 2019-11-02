@@ -1,0 +1,35 @@
+body{
+	//background-image: url("/bgimages/background1.png");
+	//background-repeat: no-repeat;
+    //background-attachment: fixed;
+	//background-size: cover;
+	font: 13px 'Ruda', sans-serif;
+}
+
+#navbarDiv{
+	height: 60px;
+	border-bottom: #5a5a5a 1px dotted;
+	line-height: 60px;
+	padding-left: 100px;
+}
+
+form{
+	margin-bottom: 0px;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.navbar-link{
+	transition: background 100ms;
+	display: -webkit-inline-box;
+	padding: 0px 10px;
+}
+.navbar-link:hover{
+	background: rgba(0, 0, 0, 0.2);
+}
+.input-group{
+	margin-bottom: 13px;
+}

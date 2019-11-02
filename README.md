@@ -1,2 +1,4 @@
 # ForumV1
-basic forum written in php
+Basic forum written in php
+
+The forum has multiple users that can send messages in a main forum that everyone can read

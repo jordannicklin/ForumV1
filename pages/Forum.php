@@ -59,20 +59,6 @@
 	function getMessages(){
 		$.post("/phpscripts/fillin/getMessage.php", {message: $("#message").val()}, function(data){
 			$("#messages").html(data)
-			
-			/*$(".deleteBtn").click(function(){
-				var porn = this
-				//console.log($(this).parent().attr("data-id"))
-				$.post("/phpscripts/deletMsg.php", {id: $(this).parent().attr("data-id")}, function(data){
-					$(porn).parent().remove()
-				})
-			})
-			
-			$(".likeBtn").click(function(){
-				$.post("/phpscripts/likeMsg.php", {id: $(this).parent().attr("data-id")}, function(data){
-					console.log(data);
-				})
-			})*/
 		})
 	}
 	getMessages()
